@@ -24,6 +24,7 @@ body
 	font-family: Arial
 	font-size: 16px
 	margin-right 0
+	transition font-size 1s
 footer
 	background naranja
 	color rgba(white, 0.5)
@@ -83,6 +84,7 @@ header
 			font-weight normal
 			margin 0
 			padding 0
+		
 
 	.usuario
 		position absolute
@@ -111,6 +113,9 @@ header
 			&:before
 				font-family "iconitos"
 				content "\e604"
+				
+.sizer
+	text-decoration none
 nav
 	background azul
 	border-left 15px solid white
@@ -140,6 +145,16 @@ nav
 				margin 0 0.5em
 				text-decoration none
 				padding 0 0.2em
+				
+
+form
+	display none
+	padding 0.3em
+	
+	label
+		display inline-block
+		width 60px
+		border-radius 15%
 				
 .posts
 	padding 0.5em
